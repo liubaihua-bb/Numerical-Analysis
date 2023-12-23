@@ -1,2 +1,3 @@
-fun = @(x) x./(1+x.^2);
-result = integral(fun,0,1)
+fun = @(x) atan(x)+pi;
+f=@(x) x-tan(x);
+x=4.5;
